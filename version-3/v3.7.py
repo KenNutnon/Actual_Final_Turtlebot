@@ -142,7 +142,6 @@ class Follower:
           straight = False
           i = 0
 
-      
       print(i)
         
 
@@ -162,7 +161,7 @@ class Follower:
         straight = True
       
       
-      elif self.Img_detect(image0, "Turn-right-sign3.png",15):
+      elif self.Img_detect(image0, "Turn-right-sign3.png",10):
         print("right")
 
         right = True
